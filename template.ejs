@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Activity Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <div class="keyPrice">
+
+        <div class="key">
+
+            <h6 class="keyValue">
+            <%= data.key %>
+            </h6>
+
+        </div>
+
+        <div class="price">
+
+            <h6 class="priceValue">
+                Price
+            </h6>
+            <h6 class="priceValue-2">
+            <%= data.price %>
+            </h6>
+
+        </div>
+    </div>
+
+
+    <!-- Hero Section -->
+
+    <div class="heroSection">
+
+
+        <div class="activityContainer">
+
+            <div class="activity">
+                <h3 class="activity-description">
+                <%= data.activity %>
+                </h3>
+            </div>
+
+            <h4 class="text-below-activity">
+                Outdoor & Sporting Goods Company
+            </h4>
+
+            <button class="explore-btn">
+                Explore More
+            </button>
+
+            <p class="tagline">
+                We have More Special goods for you 🚀
+            </p>
+
+            <div class="activity-numbers">
+
+                <div class="activity-descp-1">
+
+                    <p>More Than</p>
+                    <h2 class="numbers">50+</h2>
+                    <h3 class="desc">Adventure Product</h3>
+
+                </div>
+
+                <div class="activity-descp-1">
+
+                    <p>More Than</p>
+                    <h2 class="numbers">75+</h2>
+                    <h3 class="desc">Outlet In Indonesia</h3>
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <div class="activity-stock-1">
+
+            <img class="activity-stock-1-img" src="./assets/Activity_Stock_1.png" alt="">
+
+        </div>
+
+        <div class="backpack">
+
+            <img class="backpack-img" src="./assets/Backpack (1).png" alt="">
+
+            <div class="bag">
+                <img class="bag-img" src="./assets/Backpack.png" alt="">
+                <h3 class="bag-desc">
+                    Ransel Genali 25L 01
+                </h3>
+            </div>
+
+        </div>
+
+        <div class="activity-stock-2">
+
+            <img class="activity-stock-2-img" src="./assets/Activity_Stock_2.png" alt="">
+
+        </div>
+
+        <div class="accessibility-type-section">
+
+            <img class="accessibility-type-section-img" src="./assets/image 15.png" alt="">
+
+            <div class="accessibility-type-container">
+                <!-- hell -->
+                <div class="card-send">
+                    <img src="./assets/card-send.png" alt="">
+
+                    <p class="accessibility">
+                        Accessibility :
+                    </p>
+                    <h4 class="accessiblity-value">
+                        <%= data.accessibility %>
+                    </h4>
+
+                </div>
+
+                <div class="sheild-tick">
+                    <img src="./assets/shield-tick.png" alt="">
+
+                    <p class="type">
+                        Type :
+                    </p>
+                    <span class="type-value">
+                    <%= data.type %>
+                    </span>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</div>
+    
+</body>
+
+</html>
