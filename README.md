@@ -41,9 +41,9 @@ To run the Static Site Generator locally, please follow these steps:
 
 1. Clone the repository:
 
-   ```bash
+```bash
    git clone git@github.com:jaiswarabhishek/static-site-generator.git
-   ```
+```
 
 2. Install the dependencies:
 
