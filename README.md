@@ -16,11 +16,24 @@ This project is a Static Site Generator that generates unique pages dynamically 
 The Static Site Generator utilizes the following technologies:
 
 -**JavaScript** : The project's main programming language.
+<br>
+
 -**HTML** : The markup language used to structure the content of the generated pages.
+<br>
+
 -**CSS** : The stylesheet language used to style the UI of the generated pages.
+
+<br>
+
 -**EJS** : The templating engine used to generate the pages dynamically.
+<br>
+
 -**Bored API** : The API used to fetch data for generating the pages.
+<br>
+
 -**Axios** : The HTTP client used to fetch data from the Bored API.
+<br>
+
 -**Node.js** : A runtime environment to execute JavaScript code on the server-side.
 
 ## 🚀 Getting Started
